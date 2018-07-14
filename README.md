@@ -1,7 +1,16 @@
 [![Moleculer](https://img.shields.io/badge/Powered%20by-Moleculer-green.svg?colorB=0e83cd)](https://moleculer.services)
 
 # apirestproxy
+Add Twitter client config
 
+```
+const client = new Twitter({
+  consumer_key: '',
+  consumer_secret: '',
+  access_token: '',
+  access_token_secret: ''
+ });
+```
 ## Build Setup
 
 ``` bash
