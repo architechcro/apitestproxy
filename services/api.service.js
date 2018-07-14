@@ -17,6 +17,12 @@ module.exports = {
 				"**"
 			]
 		}],
+		aliases: {
+			"GET twitter/user": "twitter.user",
+			"GET twitter/home": "twitter.home",
+			"GET home": "twitter.home",
+			"health": "$node.health",
+		},
 
 		// Serve assets from "public" folder
 		assets: {
